@@ -20,7 +20,8 @@ public class Quiz {
 
 	private String title;
 	
-	@Transient private List<Question> questions;
+	@Transient
+	private List<Question> questions;
 
 	public Quiz() {
 		
